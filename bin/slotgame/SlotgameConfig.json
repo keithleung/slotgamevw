@@ -1,0 +1,45 @@
+[{
+	"id":1,
+	"game_id":2,
+	"screen_row":3,
+	"screen_column":5,
+	"feature_game_turn":10,
+	"rng_min":100,
+	"rng_max":100,
+	"reels_normal":[
+		["Queen","CUP","Ten","TREASURE","SHIP","CUP","TREASURE","Ace","CUP","Ten","ARMET","CUP","Ten","PALACE","CUP","Ten","King","CUP","Ten","Jack"],
+		["TREASURE","King","Ten","ARES","CUP","TREASURE","ARMET","Jack","Ten","King","Ace","ARMET","King","Queen","Ten","King","SHIP","Ten"],
+		["TREASURE","ARMET","SHIP","Ace","King","Jack","Ten","ARES","Jack","CUP","Queen","Jack","Ten","CUP","Jack","Ten","Queen","Jack"],
+		["CUP","TREASURE","ARMET","SHIP","Ace","King","CUP","TREASURE","Ace","King","CUP","TREASURE","ARMET","SHIP","King","CUP","TREASURE","SHIP","Ace","King","ARES","Queen","Jack","SHIP","Ten","CUP","TREASURE","ARMET","SHIP","Ace","CUP","TREASURE","ARMET","SHIP","Ace","King"],
+		["CUP","TREASURE","ARMET","SHIP","Ace","King","Queen","Jack","CUP","TREASURE","ARMET","SHIP","ARES","CUP","TREASURE","ARMET","SHIP","Ace","King","Queen","Jack","CUP","TREASURE","Ten","PALACE","CUP","TREASURE","ARMET","SHIP","Ace","King","Queen","Jack","CUP","TREASURE","ARMET","SHIP","Ace","King","Queen","Jack","CUP","TREASURE","ARMET","SHIP","Ace","King","Queen","Jack","CUP","TREASURE","ARMET","POT","SHIP","Ace","King","Queen","Jack"]
+	],
+	"reels_feature":[
+		["Ace","King","Queen","Jack","Ten","PALACE","Ace","King","Queen","Jack","Ten","Ace","King","Queen","Jack","Ten","Ace","King","Queen","Jack","Ten","ARES","King","Queen","Jack","Ten","CUP","TREASURE","ARMET","SHIP","Ten","Ace","King","Queen","Jack","Ten","PALACE"],
+		["ARES","CUP","TREASURE","ARMET","SHIP","Ace","King","Queen","Jack","Ten","ARMET","SHIP","Ace","ARMET","SHIP","Ace","ARMET","SHIP","Ace","ARMET","SHIP","Ace","ARMET","SHIP","Ace"],
+		["ARES","CUP","TREASURE","ARMET","SHIP","Ace","King","Queen","Jack","Ten","Queen","CUP","TREASURE","ARMET","Queen","Jack","CUP","TREASURE","ARMET","Queen","Jack","CUP","TREASURE","ARMET","Queen","Jack","CUP","TREASURE","ARMET","Queen","Jack"],
+		["ARES","CUP","TREASURE","ARMET","SHIP","Ace","King","Ten","Queen","Jack","Ten","CUP","TREASURE","ARMET","CUP","TREASURE","Ten","CUP","TREASURE","Ten","CUP","TREASURE","Ten"],
+		["ARES","CUP","TREASURE","ARMET","SHIP","Ace","King","Queen","Jack","Ten","PALACE","ARMET","SHIP","Queen","Jack","ARMET","SHIP","Ace","King","Queen","Jack","Ten","ARMET","SHIP","Ace","King","Queen","Jack","Ten","ARMET","SHIP","Ace","King","Queen","Jack","Ten","ARMET","SHIP","Ace","King","Queen","Jack","Ten"]
+	],
+	"rngSymbols":["ARES","CUP","TREASURE","ARMET","SHIP","Ace","King","Queen","Jack","Ten","POT","PALACE"],
+	"bonus_game_ids":[1]
+
+},
+{
+	"id":2,
+	"game_id":1,
+	"screen_row":3,
+	"screen_column":5,
+	"feature_game_turn":12,
+	"rng_min":10,
+	"rng_max":10,
+	"reels_normal":[
+		["J", "A", "PIC1", "N", "J", "T","K", "PIC2", "N", "T", "Q", "J","PIC3", "Q", "T", "A", "SCATTER", "N", "Q", "K","N","PIC4","Q","N","A","PIC2","Q","N","J","T","PIC4","N", "Q", "T", "N", "J", "Q","SCATTER", "N", "Q", "T", "PIC1", "A", "K","Q", "PIC4", "N", "K", "Q", "PIC3", "J", "T","N","PIC4"],
+		["PIC2","J","A","PIC4","J","K","PIC3","N","K","PIC1","A","TARGET","TARGET","J","PIC2","A","N","Q","J","A","Q","PIC4","N","A","SCATTER","K","T","N","PIC2","K","A","WILD","N","K","TARGET","Q","A","PIC4","N","K","SCATTER","A","PIC3","K","A","T","PIC1","A","K","J","PIC1","A"],
+		["PIC4","T","J","WILD","Q","T","SCATTER","A","PIC4","K","PIC1","Q","PIC2","T","PIC3","A","PIC4","T","K","PIC4","T","PIC3","Q","K","PIC3","T","TARGET","TARGET","TARGET","K","Q","PIC4","J","T","SCATTER","N","Q","PIC3","N","T","PIC2","PIC1","N","T","PIC4","PIC1","T","PIC2","N","PIC3","T","PIC1","PIC2","J"],
+		["PIC4","K","PIC2","N","PIC3","A","PIC4","K","PIC2","J","TARGET","TARGET","Q","PIC4","N","A","J","K","WILD","N","Q","SCATTER","J","K","A","PIC1","N","PIC4","Q","J","PIC1","Q","N","PIC3","A","PIC2","J","K","PIC3","N","TARGET","T","PIC2","PIC4","K","PIC3","T","PIC1","SCATTER","K","PIC2","T","PIC3","N"],
+		["Q","K","T","PIC4","K","T","PIC1","Q","J","T","PIC2","Q","A","N","SCATTER","T","Q","J","PIC3","A","TARGET","TARGET","T","J","PIC2","K","N","PIC4","T","N","PIC3","A","T","N","PIC3","K","T","PIC2","A","J","TARGET","T","K","N","A","PIC4","J","T","PIC1","J","SCATTER","A","T"]
+	],
+	"rngSymbols":["PIC1","PIC2","PIC3","PIC4","A","K","Q","J","T","N","WILD"],
+	"bonus_game_ids":[1]
+
+}]
