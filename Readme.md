@@ -3,7 +3,7 @@
 - 已提供用戶自定輸入的function . 方便你測試
 - 你需要提供一個spin function . 內容是每次轉動5個軸 轉動到5個相同的 symbol 便賠相應賠率
 - output 的format 需要是json 格式如下:
-- 你需要使用git repo 去checkout source code. 完成後需要把source code commit 到新的 repo
+- 你需要使用git repo 去checkout source code. 完成後需要把source code commit 到你自己新的 repo
 
 ##相關資料:
 - playedSpin 相等於5個軸的結果(需要和config array position 一致)
