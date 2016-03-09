@@ -22,7 +22,7 @@ public class main {
 			SlotgameEngine obj = new Slotgame();
 			
 			obj.setBet(bet);
-			obj.setCustomValues(customValues);
+			obj.setCustomValues(customSymbol);
 			obj.run_normal();
 
 			System.out.println("finalResult : "+obj.getFinalResult());
